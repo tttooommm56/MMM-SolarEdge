@@ -124,7 +124,7 @@ Module.register("MMM-SolarEdge", {
 
   getHeader: function () {
     var title;
-    if (this.data.header) {
+    if (this.data.header != null) {
       // Static header from config
       title = this.data.header;
     } else {
